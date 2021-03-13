@@ -1,3 +1,4 @@
+// import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
 import 'xwing-miniatures-font/dist/xwing-miniatures.css'
 

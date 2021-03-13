@@ -1,4 +1,28 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind typography;
+
+.xwing-miniatures-font::before {
+  display: inline-block;
+  line-height: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.linked .xwing-miniatures-font::before {
+  display: inline-block;
+  line-height: 1.65;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +37,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
