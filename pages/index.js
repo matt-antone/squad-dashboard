@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import {default as Token} from '../components/token'
 import { default as Squad } from '../components/Squad'
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-800">
       <Head>
         <title>Xwing Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,7 +14,6 @@ export default function Home() {
             Squad Dashboard
           </h1>
           <Squad/>
-
         </main>
       </div>
       <footer>
